@@ -1,20 +1,12 @@
-# Invitación con HTML y CSS
+# Invitación temática de San Agustín
 
-Sitio estático compuesto por tres páginas:
+Sitio estático preparado para GitHub Pages. Incluye tres páginas, estilos compartidos e ilustraciones SVG locales.
 
-- `index.html`: pantalla inicial.
-- `mensaje.html`: mensaje intermedio.
-- `invitacion.html`: datos de la actividad.
-- `css/estilos.css`: estilos compartidos.
+## Publicación
 
-## Publicar en GitHub Pages
+1. Sube todos los archivos a un repositorio.
+2. Abre Settings > Pages.
+3. Selecciona Deploy from a branch.
+4. Elige main y /root.
 
-1. Crea un repositorio nuevo en GitHub.
-2. Sube todos los archivos conservando la carpeta `css`.
-3. Ingresa en `Settings`.
-4. Abre la sección `Pages`.
-5. En `Build and deployment`, selecciona `Deploy from a branch`.
-6. Elige la rama `main` y la carpeta `/root`.
-7. Guarda los cambios.
-
-GitHub mostrará la dirección pública del sitio una vez publicado.
+Modifica los textos de `mensaje.html` e `invitacion.html` para colocar la información definitiva.
