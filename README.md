@@ -1,4 +1,4 @@
-# Invitación del Mes Agustiniano
+# Invitación del Mes Agustino
 
 Sitio estático preparado para GitHub Pages.
 
@@ -23,7 +23,7 @@ Sitio estático preparado para GitHub Pages.
 Los documentos enlazan el CSS con esta versión:
 
 ```html
-<link rel="stylesheet" href="css/estilos.css?v=1.0.2">
+<link rel="stylesheet" href="css/estilos.css?v=1.0.3">
 ```
 
 Cuando modifiques el CSS, cambia el número o la fecha en los tres archivos HTML.
