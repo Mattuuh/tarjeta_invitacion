@@ -1,12 +1,29 @@
-# Invitación temática de San Agustín
+# Invitación del Mes Agustiniano
 
-Sitio estático preparado para GitHub Pages. Incluye tres páginas, estilos compartidos e ilustraciones SVG locales.
+Sitio estático preparado para GitHub Pages.
 
-## Publicación
+## Archivos
 
-1. Sube todos los archivos a un repositorio.
-2. Abre Settings > Pages.
-3. Selecciona Deploy from a branch.
-4. Elige main y /root.
+- `index.html`: apertura animada del sobre.
+- `mensaje.html`: mensaje previo a la invitación.
+- `invitacion.html`: fecha, horario y lugar.
+- `css/estilos.css`: diseño y animaciones.
+- `img/`: logos oficiales utilizados en la invitación.
 
-Modifica los textos de `mensaje.html` e `invitacion.html` para colocar la información definitiva.
+## Publicación en GitHub Pages
+
+1. Sube todo el contenido al repositorio conservando las carpetas.
+2. En GitHub abre `Settings > Pages`.
+3. Selecciona `Deploy from a branch`.
+4. Elige la rama `main` y la carpeta `/root`.
+5. Guarda los cambios.
+
+## Caché del CSS
+
+Los documentos enlazan el CSS con esta versión:
+
+```html
+<link rel="stylesheet" href="css/estilos.css?v=1.0.2">
+```
+
+Cuando modifiques el CSS, cambia el número o la fecha en los tres archivos HTML.
