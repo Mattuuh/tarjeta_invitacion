@@ -39,9 +39,9 @@ body {
     overflow: hidden;
     padding: 28px 18px;
     background:
-        radial-gradient(circle at 12% 20%, rgba(255, 147, 30, .26), transparent 28%),
-        radial-gradient(circle at 88% 82%, rgba(38, 59, 145, .28), transparent 32%),
-        linear-gradient(145deg, #6f1117 0%, #b71920 48%, #481017 100%);
+        radial-gradient(circle at 12% 20%, rgba(255, 170, 40, .24), transparent 30%),
+    radial-gradient(circle at 88% 82%, rgba(60, 90, 185, .22), transparent 34%),
+    linear-gradient(145deg, #98242b 0%, #d63f47 50%, #7d2027 100%);
 }
 
 .pantalla::before,
